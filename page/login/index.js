@@ -10,6 +10,11 @@
 document.querySelector('.btn').addEventListener('click', () => {
     const form = document.querySelector('.login-form')
     const data = serialize(form, { hash: true, empty: true })
+    console.log(data);
+    if (data.mobile.length !== 11) {
+        myAlert(false, '手机号长度要11位')
+        return
+    }
 
     // 1.3 基于 axios 调用验证码登录接口
     axios({

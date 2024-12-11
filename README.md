@@ -1,7 +1,10 @@
-#参考文档
+# Git学习总结
+参考文档
+```
 https://blog.csdn.net/qq_45796592/article/details/128953729
+```
 
-Git 项目分为
+Git项目分为
 - 工作区⬇️：git add [工作区的改动文件名]
 - 暂存区⬇️；git commit -m "版本注释" [工作区的改动文件名]
 - 版本库：

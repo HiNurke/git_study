@@ -1,6 +1,9 @@
-git 项目分为
-- 工作区⬇️：git add .
-- 暂存区⬇️；git commit -m "版本注释"
+#参考文档
+https://blog.csdn.net/qq_45796592/article/details/128953729
+
+Git 项目分为
+- 工作区⬇️：git add [工作区的改动文件名]
+- 暂存区⬇️；git commit -m "版本注释" [工作区的改动文件名]
 - 版本库：
   1. 同一条分支上的版本：git log --oneline
   2. 所有分支上的版本：git reflog --oneline
@@ -67,6 +70,7 @@ GitHub Pages 在线静态网页部署
 9. 合并冲突
   - 原因：在 不同分支 中，对 同一个文件 的 同一部分 修改，Git无法干净的合并
   - 解决：在VScode中解决冲突后，重新提交版本库
+10. 修改GitHub上的默认分支：https://blog.csdn.net/qyfx123456/article/details/129543324
 
 常用命令
 - 查看git版本：git -v
